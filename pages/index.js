@@ -54,9 +54,9 @@ const Index = () => {
                 <div className="animate__animated animate__wobble animate__delay-5s">
                 
                 <Image
-                  src="/img/section-1.svg"
-                  height={1000}
-                  width={1000}
+                  src="/img/ghost.png"
+                  height={2000}
+                  width={2000}
                   alt="section-1-img"
                 />
                 </div>
