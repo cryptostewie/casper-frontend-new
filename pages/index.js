@@ -37,16 +37,14 @@ const Index = () => {
             <div className="section-1 grid md:grid-cols-2 xs:grid-cols-1 gap-4">
               <div className="section-1-left h-full flex flex-col justify-center">
                 <div className="text-white text-6xl mb-6 font-black animate__animated animate__fadeInLeft animate__delay-1s">
-                  Casper Next Gen Crypto
+                  Casper Next Gen Platform
                 </div>
                 <div className="text-white text-base mb-6 animate__animated animate__fadeInLeft animate__delay-2s">
-                  In search for cute little puppy, Captain Sem has come back
-                  from his tragic death. With his hogwarts certified power he
-                  promise to be a hero for all of ghostkind.
+                 Casper DeFi is an all-in-one crypto suite, Our mission is to make investing simple &amp; safe. We believe in building useful &amp; unique dapps that will improve crypto.
                 </div>
                 <div className="flex items-center space-x-4 animate__animated animate__fadeInLeft animate__delay-3s">
-                  <Button>Trade Now</Button>
-                  <ArrowButton>Exchange Rates</ArrowButton>
+                  <Button>Buy Casper</Button>
+                  <ArrowButton>Check Charts</ArrowButton>
                 </div>
               </div>
 
@@ -73,10 +71,10 @@ const Index = () => {
 
               <div className="grid md:grid-cols-2 xs:grid-cols-1 gap-12">
                 <Card
-                  title="Card"
-                  text="In search for cute little puppy, Captain Sem has come back from his tragic death. With his hogwarts certified power he promise to be a hero for all of ghostkind."
+                  title="Casper Tracker"
+                  text="Casper Tracker is a Multi-Chain Crypto tracking platform. You can check live prices, liquidity, trades &amp; more! Now on Fantom Opera &amp; soon on Binance Smart Chain, Ethereum, KCC, Matic, Solana."
                   icon="/img/products/trade.svg"
-                  buttonText="button"
+                  buttonText="Check Tracker"
                   className={[
                     "delay-100 duration-1000",
                     scrollTop > 300
@@ -85,10 +83,10 @@ const Index = () => {
                   ].join(" ")}
                 />
                 <Card
-                  title="Card"
-                  text="In search for cute little puppy, Captain Sem has come back from his tragic death. With his hogwarts certified power he promise to be a hero for all of ghostkind."
+                  title="Casper Farm"
+                  text="Casper Farming will allow you to earn Casper or other tokens. All pools/farms will be vetted from low risk - high risk. Now on Fantom Opera &amp; soon on BSC, ETH, KCC, Matic, Solana."
                   icon="/img/products/farm.svg"
-                  buttonText="button"
+                  buttonText="Coming Soon"
                   className={[
                     "delay-300 duration-1000",
                     scrollTop > 300
@@ -97,10 +95,10 @@ const Index = () => {
                   ].join(" ")}
                 />
                 <Card
-                  title="Card"
-                  text="In search for cute little puppy, Captain Sem has come back from his tragic death. With his hogwarts certified power he promise to be a hero for all of ghostkind."
+                  title="Casper API"
+                  text="Casper API is the API that will power the entire Casper Ecosystem. Our API gets almost for everything crypto related. Our API gets data on Fantom Opera &amp; soon on BSC, ETH, KCC, Matic, Solana."
                   icon="/img/products/api.svg"
-                  buttonText="button"
+                  buttonText="Check API"
                   className={[
                     "delay-100 duration-1000",
                     scrollTop > 500
@@ -109,10 +107,10 @@ const Index = () => {
                   ].join(" ")}
                 />
                 <Card
-                  title="Card"
-                  text="In search for cute little puppy, Captain Sem has come back from his tragic death. With his hogwarts certified power he promise to be a hero for all of ghostkind."
+                  title="CasperPad"
+                  text="CasperPad will be a Multi-Chain launchpad for new tokens &amp; project. CasperPad will allow tokens to be launched on Fantom Opera, Binance Smart Chain, Ethereum, KCC, Matic, Solana."
                   icon="/img/products/token.svg"
-                  buttonText="button"
+                  buttonText="Coming Soon"
                   className={[
                     "delay-300 duration-1000",
                     scrollTop > 500
@@ -122,11 +120,6 @@ const Index = () => {
                 />
               </div>
 
-              <div className="text-white text-3xl mt-12">
-                WE BELIEVE IN THE POTENTIAL OF FAST &amp; FEELESS BLOCKCHAIN
-                &amp; ARE READY TO PRESENT THE UNIFIED ECOSYSTEM BUILT ON
-                Casper→SO #JOINTHECASPER
-              </div>
             </div>
 
             <div className="section-3 text-white">
@@ -140,7 +133,7 @@ const Index = () => {
                       scrollTop > 1400 ? "ml-0 opacity-1" : "-ml-20 opacity-0",
                     ].join(" ")}
                   >
-                    Secure and scalable
+                    Doxxed Team
                   </FeatureItem>
                   <FeatureItem
                     className={[
@@ -148,7 +141,7 @@ const Index = () => {
                       scrollTop > 1400 ? "ml-0 opacity-1" : "-ml-20 opacity-0",
                     ].join(" ")}
                   >
-                    Secure and scalable
+                    Built on Fantom Opera
                   </FeatureItem>
                   <FeatureItem
                     className={[
@@ -156,7 +149,7 @@ const Index = () => {
                       scrollTop > 1400 ? "ml-0 opacity-1" : "-ml-20 opacity-0",
                     ].join(" ")}
                   >
-                    Secure and scalable
+                    Decentralized Platform
                   </FeatureItem>
                   <FeatureItem
                     className={[
@@ -164,7 +157,7 @@ const Index = () => {
                       scrollTop > 1400 ? "ml-0 opacity-1" : "-ml-20 opacity-0",
                     ].join(" ")}
                   >
-                    Secure and scalable
+                    Multi-Chain
                   </FeatureItem>
                 </div>
 
@@ -176,7 +169,7 @@ const Index = () => {
                       scrollTop > 1400 ? "ml-0 opacity-1" : "-ml-20 opacity-0",
                     ].join(" ")}
                   >
-                    Secure and scalable
+                    Not Secure
                   </OtherFeatureItem>
                   <OtherFeatureItem
                     className={[
@@ -184,7 +177,7 @@ const Index = () => {
                       scrollTop > 1400 ? "ml-0 opacity-1" : "-ml-20 opacity-0",
                     ].join(" ")}
                   >
-                    Secure and scalable
+                    Fully Anon Team
                   </OtherFeatureItem>
                   <OtherFeatureItem
                     className={[
@@ -192,7 +185,7 @@ const Index = () => {
                       scrollTop > 1400 ? "ml-0 opacity-1" : "-ml-20 opacity-0",
                     ].join(" ")}
                   >
-                    Secure and scalable
+                    No Community
                   </OtherFeatureItem>
                   <OtherFeatureItem
                     className={[
@@ -200,21 +193,21 @@ const Index = () => {
                       scrollTop > 1400 ? "ml-0 opacity-1" : "-ml-20 opacity-0",
                     ].join(" ")}
                   >
-                    Secure and scalable
+                    Fully Closed Source
                   </OtherFeatureItem>
                 </div>
               </div>
             </div>
 
-            <div className="section-4 flex flex-col space-y-12">
+            <div className="section-4 flex flex-col space-y-12 ">
               <Product
                 direction="left"
-                image="/img/products/thumbnail.svg"
+                image="/img/products/tracker.png"
                 title="Casper Tracker"
-                text="In search for cute little puppy, Captain Sem has come back from his tragic death. With his hogwarts certified power he promise to be a hero for all of ghostkind."
+                text="Casper Tracker is a Multi-Chain Crypto tracking platform. You can check live prices, liquidity, trades &amp; more! Now on Fantom Opera &amp; soon on Binance Smart Chain, Ethereum, KCC, Matic, Solana."
                 buttonText="Go to Tracker"
                 classNameImage={[
-                  "delay-100 duration-1000",
+                  "delay-100 duration-1000 rounded-md",
                   scrollTop > 1800
                     ? "mb-0 mt-0 opacity-1"
                     : "mt-30 -mb-30 opacity-0",
@@ -228,10 +221,10 @@ const Index = () => {
               />
               <Product
                 direction="right"
-                image="/img/products/thumbnail.svg"
+                image="/img/products/farms.png"
                 title="Casper Farm"
-                text="In search for cute little puppy, Captain Sem has come back from his tragic death. With his hogwarts certified power he promise to be a hero for all of ghostkind."
-                buttonText="Go to Farm"
+                text="Casper Farming will allow you to earn Casper or other tokens. All pools/farms will be vetted from low risk - high risk. Now on Fantom Opera &amp; soon on BSC, ETH, KCC, Matic, Solana."
+                buttonText="Coming Soon"
                 classNameImage={[
                   "delay-500 duration-1000",
                   scrollTop > 2200
@@ -247,10 +240,10 @@ const Index = () => {
               />
               <Product
                 direction="left"
-                image="/img/products/thumbnail.svg"
+                image="/img/products/api.png"
                 title="Casper Api"
-                text="In search for cute little puppy, Captain Sem has come back from his tragic death. With his hogwarts certified power he promise to be a hero for all of ghostkind."
-                buttonText="Go to Api"
+                text="ICasper API is the API that will power the entire Casper Ecosystem. Our API gets almost for everything crypto related. Our API gets data on Fantom Opera &amp; soon on BSC, ETH, KCC, Matic, Solana."
+                buttonText="Coming Soon"
                 classNameImage={[
                   "delay-500 duration-1000",
                   scrollTop > 2600
@@ -266,10 +259,10 @@ const Index = () => {
               />
               <Product
                 direction="right"
-                image="/img/products/thumbnail.svg"
+                image="/img/products/launchpad.png"
                 title="Casper Token"
-                text="In search for cute little puppy, Captain Sem has come back from his tragic death. With his hogwarts certified power he promise to be a hero for all of ghostkind."
-                buttonText="Go to Token"
+                text="CasperPad will be a Multi-Chain launchpad for new tokens &amp; project. CasperPad will allow tokens to be launched on Fantom Opera, Binance Smart Chain, Ethereum, KCC, Matic, Solana."
+                buttonText="Coming Soon"
                 classNameImage={[
                   "delay-500 duration-1000",
                   scrollTop > 3000
