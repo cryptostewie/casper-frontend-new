@@ -260,7 +260,7 @@ const Index = () => {
               <Product
                 direction="right"
                 image="/img/products/launchpad.png"
-                title="Casper Token"
+                title="CasperPad"
                 text="CasperPad will be a Multi-Chain launchpad for new tokens &amp; project. CasperPad will allow tokens to be launched on Fantom Opera, Binance Smart Chain, Ethereum, KCC, Matic, Solana."
                 buttonText="Coming Soon"
                 classNameImage={[

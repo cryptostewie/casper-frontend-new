@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from 'next/link'
 
 const Footer = () => {
   return (
@@ -13,7 +14,9 @@ const Footer = () => {
           <Image src="/img/instagram.svg" layout="fill" alt="social-icon" />
         </div>
         <div className="relative h-8 w-8">
+        <a href="https://twitter.com/CasperDeFi_">
           <Image src="/img/twitter.svg" layout="fill" alt="social-icon" />
+          </a>
         </div>
         <div className="relative h-8 w-8">
           <Image src="/img/telegram.svg" layout="fill" alt="social-icon" />
