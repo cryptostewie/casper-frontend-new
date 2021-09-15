@@ -42,10 +42,10 @@ const Index = () => {
                 <div className="text-white text-base mb-6 animate__animated animate__fadeInLeft animate__delay-2s">
                  Casper DeFi is an all-in-one crypto suite, Our mission is to make investing simple &amp; safe. We believe in building useful &amp; unique dapps that will improve crypto.
                 </div>
-                <div className="flex items-center space-x-4 animate__animated animate__fadeInLeft animate__delay-3s">
-                  <Button>Buy Casper</Button>
-                  <ArrowButton>Check Charts</ArrowButton>
-                </div>
+//                 <div className="flex items-center space-x-4 animate__animated animate__fadeInLeft animate__delay-3s">
+//                   <Button>Buy Casper</Button>
+//                   <ArrowButton>Check Charts</ArrowButton>
+//                 </div>
               </div>
 
               <div className="section-1-right animate__animated animate__bounceInRight animate__delay-4s">
